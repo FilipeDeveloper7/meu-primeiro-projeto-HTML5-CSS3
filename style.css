@@ -15,11 +15,11 @@
 
 :root{ /*Esse comando cria variáveis para cores*/
     
-    --cor0:#3154B6;
-    --cor1:#3C518B;
-    --cor2:#174BE0;
-    --cor3:#8097D5;
-    --cor4:#B1BFE6;
+    --cor0:#0540F2;
+    --cor1:#0554F2;
+    --cor2:#0597F2;
+    --cor3:#A2D4F2;
+    --cor4:#05AFF2;
     /*Os -- e nome das cores tem que estar colados --cor0*/
 
     --fonte-padrao:arial,verdana,Helvetica,sans-serif;
@@ -168,7 +168,7 @@ footer{
 }
 aside{
 
-  background-color: var(--cor4);
+  background-color: var(--cor3);
   padding: 10px;
   border-radius:10px 10px 10px 10px;
   box-shadow: 3px 3px 8px black;
