@@ -1,0 +1,98 @@
+@charset "UTF-8";
+*{ /*Configurações globais*/
+    padding: 0px;
+    margin: 0px;
+}
+/*Definindo as fontes que serão usadas no projeto. Vou usar dois métodos: font face e import.*/
+@font-face {
+    font-family: idroid;
+    src: url(Arquivos/fontes/idroid.otf);font-family: Arial, Helvetica, sans-serif;
+    
+}
+@font-face {
+    font-family: Bebas Neue;
+    src: url(Arquivos/fontes/BebasNeue-Regular.ttf);font-family: Arial, Helvetica, sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');font-family: Arial, Helvetica, sans-serif;
+/*Definindo a paleta de cores do projeto por meio de variáveis.*/
+:root {
+    --cor0:#539DA6;
+    --cor1:#3285A6;
+    --cor2:#1B618C;
+    --cor3:#023059;
+    --cor4:#022859;
+    
+}
+body{
+    background-color: #539DA6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-image: linear-gradient(to bottom,#1B618C,#023059,#022859) ;
+    color: white;
+    text-align: center;
+    min-height: 150px;
+    padding-top: 40px;
+    
+}
+header > h1{
+    font-family: Bebas Neue;
+    padding: 20px;
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.473);
+}
+header > p{
+    font-family: Arial, Verdana, Helvetica, Sans-serif;;
+    font-size: 1.2em;
+    max-width: 600px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    margin: auto;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.425);
+}
+header > p{
+    max-width: 700px;
+    padding-bottom: 40px;
+}
+nav{
+   
+    background-color: #022859;
+     padding: 10px;
+ 
+}
+nav > a{
+    padding: 10px ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    color: white;
+    text-decoration: none;
+  
+}
+nav a:hover{
+    background-color: #2480b9;
+    text-decoration: underline;
+    border-radius: 5px;
+    transition: .5s;
+    color: #022859;
+}
+main{
+    width: 700px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    
+}
+h2{
+    font-family: idroid ;
+    padding: 10px;
+    color: white;
+    background-image: linear-gradient(to left,#3285A6,#1B618C);
+}
+main p{
+    padding: 30px;
+    text-indent: 30px;
+    text-align: justify;
+}
+
