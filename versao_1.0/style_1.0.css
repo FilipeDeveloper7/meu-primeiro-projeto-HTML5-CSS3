@@ -78,21 +78,95 @@ nav a:hover{
     color: #022859;
 }
 main{
-    width: 700px;
+    min-width: 320px; /*essas configurações min e max deixam o site mais responsivo ao tamanho das telas*/ 
+    max-width: 800px;
     margin: auto;
     background-color: white;
     padding: 20px;
     
 }
+main .pequena{
+    max-width: 300px;
+    display: block;
+    margin: auto;}
 h2{
     font-family: idroid ;
     padding: 10px;
     color: white;
     background-image: linear-gradient(to left,#3285A6,#1B618C);
 }
+
 main p{
     padding: 30px;
     text-indent: 30px;
     text-align: justify;
+}
+main  a{
+    background-color:#4688c2;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+main a:hover{
+    background-color: #5299b6;
+    color: #022859;
+    text-decoration: underline;
+}
+a.externo::after{
+    content: '\00A0\1F517'; 
+}
+main strong{
+    color: #2993a1;
+}
+div.video{
+    width: 100%;
+    background-color: #84ebf8;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+}
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+
+}
+aside{
+
+  background-color: #57b4ee;
+  color: white;
+  padding: 10px;
+  border-radius:10px 10px 10px 10px;
+  box-shadow: 3px 3px 8px black;
+  margin-top: 10px;
+}
+aside > ul{
+
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    columns: 2;
+
+}
+aside > h3 {
+
+    background-color: #022859;
+    color: white;
+    padding: 10px;
+    margin: -10px -10px -10px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+aside #aside{
+    background-color: #022859;
+    color: white;
+}
+footer{
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color: white;
 }
 
