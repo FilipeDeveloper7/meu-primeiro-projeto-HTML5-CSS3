@@ -39,6 +39,8 @@ header{
     min-height: 150px;
     width: 100%;
     padding-bottom: 3%;
+   
+
     
 }
 header> h1 {
@@ -73,6 +75,7 @@ nav{
    padding: 10px;
    margin-bottom: -9px;
    
+   
   
 }
 nav a{
@@ -91,6 +94,7 @@ nav a:hover{
 }
 body{
     background-color: #6085A6; 
+    position: relative;
 }
 a.externo::after{
     content:'\00A0\1F517';
